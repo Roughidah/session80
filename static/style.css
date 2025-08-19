@@ -1,0 +1,83 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="number"], select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 300px;
+}
+
+
+/* Radio buttons in a row */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button */
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #2980b9;
+}
+
+/* Result text */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Radio buttons container */
+.radio-group {
+    display: flex;
+    gap: 20px; /* spacing between options */
+    margin-bottom: 15px;
+}
+
+/* Each label wraps its radio + text side by side */
+.radio-group label {
+    display: flex;
+    align-items: center;  /* vertically align radio + text */
+    gap: 6px;             /* space between radio and text */
+    font-weight: normal;  /* make description lighter */
+}
